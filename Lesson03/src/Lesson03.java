@@ -66,8 +66,23 @@ public class Lesson03 {
             System.out.println();
         }
 
-        // ЗАДАНИЕ 3
-
+        System.out.println("\nЗАДАНИЕ 3\n");
+        Deque deque = new Deque(10);
+        deque.print();
+        deque.insertlast(5);
+        deque.insertlast(4);
+        deque.insertlast(3);
+        deque.insertlast(2);
+        deque.insertlast(1);
+        deque.print();
+        deque.insertfirst(6);
+        deque.insertfirst(7);
+        deque.insertfirst(8);
+        deque.insertfirst(9);
+        deque.print();
+        deque.removefirst();
+        deque.removelast();
+        deque.print();
     }
 
     public static int rnd(int min, int max){
